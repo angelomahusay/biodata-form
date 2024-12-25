@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/styles.css">
+  <title>Biodata</title>
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="biodata-container">
+      <p class="header-text">BIODATA</p>
+    </div>
+    <div class="upload-container">
+      <label for="file-input" class="custom-file-upload">
+        <span class="iphoto-text">1 x 1 <br></span>
+        <span class="photo-text">PHOTO</span>
+      </label>
+      <input id="file-input" type="file" accept="image/*">
+    </div>
+  </div>
+
+  <div class="underline"></div>
+  <div class="first-container-wrapper">
+    <div class="data-container">
+      <div class="sub-heading-center">
+        <p class="text-personal-data">PERSONAL DATA</p>
+      </div>
+    </div>
+    <div class="pos-date">
+      <div class="row-pos-date">
+        <input class="input-pos" type="text" placeholder="Position Desired: ">
+        <input class="input-date" type="text" placeholder="Date: ">
+      </div>
+
+      <input class="input-name" type="text" placeholder="Name: ">
+      <div class="l-m-f-container">
+        <p class="l-f-m">(last)</p>
+        <p class="l-f-m">(first)</p>
+        <p class="l-f-m">(middle)</p>
+      </div>
+      <div class="row-city-tel">
+        <input class="input-city" type="text" placeholder="City Address: ">
+        <input class="input-tel" type="text" placeholder="Tel. No.: ">
+      </div>
+      <div class="row-prov-tel">
+        <input class="input-prov-add" type="text" placeholder="Provincial Address: ">
+        <input class="input-telno" type="text" placeholder="Tel. No.: ">
+      </div>
+      <input type="text" placeholder="E-mail Address: ">
+      <div class="row-date-place">
+        <input class="input-date" type="text" placeholder="Date of Birth: ">
+        <input class="input-birth" type="text" placeholder="Place of Birth: ">
+      </div>
+
+      <div class="input-height-weight-container">
+        <input class="input-height" type="text" placeholder="Height: ">
+        <input class="input-weight" type="text" placeholder="Weight: ">
+      </div>
+      <div class="data-option">
+        <input class="data-input" type="text" placeholder="Civil Status: " list="single-married">
+        <datalist id="single-married">
+          <option>Single</option>
+          <option>Married</option>
+        </datalist>
+        <input class="data-input" type="text" placeholder="Citizenship: ">
+
+        <input class="data-input" type="text" placeholder="Sex: " list="male-female">
+        <datalist id="male-female">
+          <option>Male</option>
+          <option>Female</option>
+        </datalist>
+      </div>
+
+      <input type="text" placeholder="Name of Spouse: ">
+      <input type="text" placeholder="Address: ">
+      <input type="text" placeholder="Occupation:">
+      <div class="input-fathername-occupation">
+        <input class="father-name" type="text" placeholder="Father's Name: ">
+        <input class="father-occupation" type="text" placeholder="Occupation: ">
+      </div>
+      <div class="input-fathername-occupation">
+        <input class="mother-name" type="text" placeholder="Mother's Name: ">
+        <input class="mother-occupation" type="text" placeholder="Occupation: ">
+      </div>
+      <div class="add-tel">
+        <input class="address-telno" type="text" placeholder="Their Address: ">
+        <input class="address-telno" type="text" placeholder="Tel. No: ">
+      </div>
+      <input class="input-language" type="text" placeholder="Language or Dialect Spoken & Written: ">
+      <div class="underline"></div>
+      <div class="sub-heading-center">
+        <p class="education-att-data">EDUCATION ATTAINMENT</p>
+      </div>
+    </div>
+    <div class="name-degree-yearattend-container">
+      <div class="name-school-container">
+        <p class="name-degree-yearattend">Name of School and Address: </p>
+        <input type="text" placeholder="Elementary: ">
+        <input type="text" placeholder="High School: ">
+        <input type="text" placeholder="Vocational: ">
+        <input type="text" placeholder="College: ">
+        <input type="text" placeholder="Course: ">
+        <div class="row-special-others">
+          <input class="spec-input" type="text" placeholder="Special Skills: ">
+          <input class="others-input" type="text" placeholder="Others: ">
+        </div>
+      </div>
+      <div class="degree-received-container">
+        <p class="name-degree-yearattend">Degree Received: </p>
+        <input type="text" placeholder="Elementary: ">
+        <input type="text" placeholder="High School: ">
+        <input type="text" placeholder="Vocational: ">
+        <input type="text" placeholder="College: ">
+        <input type="text" placeholder="Course: ">
+        <div class="row-special-others">
+          <input class="spec-input" type="text" placeholder="Special Skills: ">
+          <input class="others-input" type="text" placeholder="Others: ">
+        </div>
+      </div>
+
+      <div class="year-att-container">
+        <p class="name-degree-yearattend">Year Attended: </p>
+        <input type="text" placeholder="Elementary: ">
+        <input type="text" placeholder="High School: ">
+        <input type="text" placeholder="Vocational: ">
+        <input type="text" placeholder="College: ">
+        <input type="text" placeholder="Course: ">
+        <div class="row-special-others">
+          <input class="spec-input" type="text" placeholder="Special Skills: ">
+          <input class="others-input" type="text" placeholder="Others: ">
+        </div>
+      </div>
+
+    </div>
+    <div class="underline"></div>
+    <div class="sub-heading-center">
+      <p class="education-att-data">EMPLOYMENT RECORD</p>
+    </div>
+  </div>
+  <div class="employment-record-container">
+    <div class="name-company-contaner">
+      <p class="name-degree-yearattend">Name of Company: </p>
+      <input type="text" placeholder="Company name: ">
+      <input type="text" placeholder="Company name: ">
+      <input type="text" placeholder="Company name: ">
+    </div>
+
+    <div class="address-container">
+      <p class="name-degree-yearattend">Address: </p>
+      <input type="text" placeholder="Company Address: ">
+      <input type="text" placeholder="Company Address: ">
+      <input type="text" placeholder="Company Address: ">
+    </div>
+
+    <div class="position-container">
+      <p class="name-degree-yearattend">Position: </p>
+      <input type="text" placeholder="Position: ">
+      <input type="text" placeholder="Position: ">
+      <input type="text" placeholder="Position: ">
+    </div>
+    <div class="from-container">
+      <p class="name-degree-yearattend">From-To: </p>
+      <input type="text" placeholder="From-To: ">
+      <input type="text" placeholder="From-To: ">
+      <input type="text" placeholder="From-To: ">
+    </div>
+
+  </div>
+
+  <div class="underline"></div>
+  <div class="sub-heading-center">
+    <p class="education-att-data">CHARACTER REFERENCES</p>
+  </div>
+
+  <div class="character-references-wrapper">
+    <div class="name-container-col">
+      <p class="name-degree-yearattend">Name: </p>
+      <input type="text" placeholder="Name: ">
+      <input type="text" placeholder="Name: ">
+      <input type="text" placeholder="Name: ">
+    </div>
+    <div class="address-col">
+      <p class="name-degree-yearattend">Address: </p>
+      <input type="text" placeholder="Address: ">
+      <input type="text" placeholder="Address: ">
+      <input type="text" placeholder="Address: ">
+    </div>
+    <div class="position-col">
+      <p class="name-degree-yearattend">Position: </p>
+      <input type="text" placeholder="Position: ">
+      <input type="text" placeholder="Position: ">
+      <input type="text" placeholder="Position: ">
+    </div>
+    <div class="tel-no-col">
+      <p class="name-degree-yearattend">Tel. No: </p>
+      <input type="text" placeholder="Tel. No.: ">
+      <input type="text" placeholder="Tel. No.: ">
+      <input type="text" placeholder="Tel. No.: ">
+    </div>
+  </div>
+
+  <div class="underline"></div>
+  <div class="main-char-ref-container">
+    <div class="char-ref-container">
+      <input type="text" placeholder="Res. Cert. No. A: ">
+      <input type="text" placeholder="Issued at: ">
+      <input type="text" placeholder="Issued on: ">
+      <input type="text" placeholder="SSS No: ">
+      <input type="text" placeholder="TIN: ">
+      <input type="text" placeholder="NBI Clearance No.: ">
+      <input type="text" placeholder="Passport No.: ">
+      <input type="text" placeholder="Place of issue: ">
+      <input type="text" placeholder="Date: ">
+    </div>
+    <div class="digital-signiture-container">
+      <p class="hereby-text">I hereby certify that the above information is true and correct to the best of my knowledge
+        and belief.</p>
+      <br>
+      <br>
+      <div class="digital-signature">
+        <label for="file-input" class="custom-file-upload">
+          <span class="digital-signiture">UPLOAD <br> <span class="digital-span">Digital</span> <br> Signiture</span>
+        </label>
+      </div>
+      <input id="file-inputt" type="file" accept="image/*">
+      <p>Applicant's Digital Signature Above</p>
+      <div class="submit-btn">
+        <a href="./welldone.html"> <button class="submit-index-btn">Submit</button></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
